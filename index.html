@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liobtc - Enterprise Telegram Bots & Web Solutions</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        },
+                        dark: {
+                            900: '#050505',
+                            800: '#0f0f0f',
+                            700: '#171717',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-900 text-gray-100 font-sans antialiased selection:bg-gold-500/30 selection:text-gold-400">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-dark-900/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo with Image URL -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl overflow-hidden border border-gold-500/30 group-hover:border-gold-500 transition-colors">
+                    <img src="https://kommodo.ai/i/oxJUiIjlDvR2Hul0RyH3" alt="Liobtc Logo" class="w-full h-full object-cover">
+                </div>
+                <span class="text-xl font-bold tracking-wider text-white">Lio<span class="text-gold-500">btc</span></span>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">
+                <a href="#about" class="hover:text-gold-400 transition-colors">About</a>
+                <a href="#services" class="hover:text-gold-400 transition-colors">Services</a>
+                <a href="#projects" class="hover:text-gold-400 transition-colors">Projects</a>
+                <a href="#verification" class="hover:text-gold-400 transition-colors">Verification</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <div class="hidden md:block">
+                <a href="https://t.me/" target="_blank" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-dark-900 font-semibold text-sm hover:opacity-90 transition-opacity">
+                    Contact Telegram
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 md:pt-44 md:h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <!-- Second Image Instance (Avatar/Profile) -->
+            <div class="w-24 h-24 mx-auto mb-8 rounded-2xl overflow-hidden border-2 border-gold-500/40 shadow-2xl shadow-gold-500/10">
+                <img src="https://kommodo.ai/i/oxJUiIjlDvR2Hul0RyH3" alt="Abivansh" class="w-full h-full object-cover">
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6">
+                Enterprise Custom <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-amber-600">Telegram Bots</span> & Web Solutions
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg text-gray-400 mb-10">
+                Expert development in high-performance Python bots, full-stack web applications, automated workflows, and digital asset verification.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#services" class="w-full sm:w-auto px-8 py-3 rounded-xl bg-gold-500 text-dark-900 font-bold hover:bg-gold-400 transition-colors">
+                    Explore Services
+                </a>
+                <a href="https://t.me/" target="_blank" class="w-full sm:w-auto px-8 py-3 rounded-xl border border-gray-700 hover:border-gold-500/50 text-white font-medium transition-colors">
+                    Let's Talk
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
